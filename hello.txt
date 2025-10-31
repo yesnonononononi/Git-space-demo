@@ -1,2 +1,13 @@
 master branch
 hello git!
+git status :: 查看当前分支信息
+git reflog :: 查看当前分支记录
+git log :: 详细记录
+git add [file]:: 添加文件到工作区
+git init :: 初始化仓库
+git commit -m [注释] :: 提交暂存区(工作区)的内容到本地仓库
+git branch [name] :: 新建分支
+git branch :: 查看分支情况
+git checkout [name] :: 切换分支
+git reset --hard [版本号] :: 切换版本
+
