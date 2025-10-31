@@ -1,5 +1,5 @@
 master branch
-hello git!
+hello git
 git status :: 查看当前分支信息
 git reflog :: 查看当前分支记录
 git log :: 详细记录
