@@ -9,5 +9,9 @@ git branch [name] :: 新建分支
 git branch :: 查看分支情况
 git checkout [name] :: 切换分支
 git reset --hard [版本号] :: 切换版本
-git merge [分支名] 合并分支,如果分支冲突,可以编辑冲突文件内容,再次add 后commit(git commit);
-git checkout --ours or --theirs [冲突文件名] 如果遇到非文本文件,ours意味着保留当前分支的文件版本,theirs保留合并分支的版本;
+git merge [分支名] ::合并分支,如果分支冲突,可以编辑冲突文件内容,再次add 后commit(git commit);
+git checkout --ours or --theirs [冲突文件名]:: 如果遇到非文本文件,ours意味着保留当前分支的文件版本,theirs保留合并分支的版本;
+git remote -v ::查看当前有没有连接远程库
+git remote add [别名] [仓库网址] ::添加仓库网址
+git push [别名 or 网址] 分支名 :: 推送当前分支到仓库
+git pull [仓库别名] [拉取分支] :: 拉取远程仓库分支文件
