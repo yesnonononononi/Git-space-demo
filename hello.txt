@@ -1,4 +1,6 @@
 hello git gitee!
+git config --global user.name [用户名] ::设置用户签名
+git config --global user.email [用户邮箱] :: 设置用户签名
 git status :: 查看当前分支信息
 git reflog :: 查看当前分支记录
 git log :: 详细记录
